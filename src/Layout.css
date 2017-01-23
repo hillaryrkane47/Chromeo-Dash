@@ -1,0 +1,59 @@
+.Layout {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  pointer-events: none;
+  font-family: 'Dosis', sans-serif;
+  color: white;
+  text-shadow: 0 0 1px #000;
+  letter-spacing: 1px;
+}
+
+.Layout .Address {
+  position: absolute;
+  right: 0;
+  left: 50%;
+  margin-left: -250px;
+  text-align: center;
+  bottom: 0;
+  margin-bottom: 5px;
+  font-size: 20px;
+  text-shadow: 0.05em 0.05em 0.2em rgba(10,10,10,0.9);
+  background: black;
+  opacity: .7;
+  width: 500px;
+  padding: 10px;
+  border: 8px solid #c4c4c4;
+}
+
+.Clock {
+  right: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.Time {
+  font-size: 15em;
+  position: absolute;
+  left: 50%;
+  margin-left: -299.395px;
+  text-align: center;
+  display: inline-block;
+  text-shadow: 0.05em 0.05em 0.2em rgba(10,10,10,0.9);
+
+}
+.Date {
+ display: inline-block;
+ font-size: 19px;
+ width: 180px;
+ background: black;
+ opacity: .7;
+ margin: 0;
+ padding: 10px 10px 5px 10px;
+ text-shadow: 0.05em 0.05em 0.2em rgba(10,10,10,0.9);
+ border-right: 8px solid #c4c4c4;
+ border-top: 8px solid #c4c4c4;
+ border-left: 8px solid #c4c4c4;
+}

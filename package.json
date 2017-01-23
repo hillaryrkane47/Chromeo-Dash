@@ -1,0 +1,30 @@
+{
+  "name": "Chromeo-Dash",
+  "description": "A Chrome extension to show your current location, weather, and today's date in new tabs :)",
+  "version": "0.0.0",
+  "private": true,
+  "devDependencies": {
+    "react-scripts": "0.7.0"
+  },
+  "dependencies": {
+    "classnames": "^2.2.5",
+    "fetch-jsonp": "^1.0.3",
+    "leaflet": "^1.0.2",
+    "lodash": "^4.16.6",
+    "mapbox": "^1.0.0-beta5",
+    "moment": "^2.17.1",
+    "rc-radio": "^2.0.0",
+    "react": "^15.3.2",
+    "react-bootstrap": "^0.30.6",
+    "react-dom": "^15.3.2",
+    "react-leaflet": "^1.0.1",
+    "react-skycons": "^0.3.0",
+    "turf-distance": "^3.0.12"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject"
+  }
+}

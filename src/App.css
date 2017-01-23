@@ -1,0 +1,58 @@
+.App {
+  height: 100%;
+  position: relative;
+}
+
+.SettingsButton {
+  position: absolute;
+  top: 2px;
+  right: 0;
+  margin: 10px;
+  z-index: 1000;
+  cursor: pointer;
+  color: #fff;
+  font-size: 1.4em;
+  text-shadow: 0px 0px 1px #000, 0px 0px 2px rgba(0, 0, 0, .5), 0px 0px 3px rgba(0, 0, 0, .25);
+}
+
+.SettingsButton.fa-spin {
+  animation: fa-spin 6s infinite linear;
+}
+
+.Settings h2 {
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.Setting {
+  padding: 0 10px;
+}
+
+.Setting label {
+  display: block;
+}
+
+.Setting .rc-radio {
+  margin-right: 8px;
+}
+
+.WeatherMap {
+  height: 100%;
+}
+
+.LocationIcon {
+  background-color: cyan;
+  border-radius: 30px;
+  -webkit-animation: pulse 2000ms 0ms infinite;
+  border: 3px solid white;
+}
+
+@keyframes pulse {
+  0% {
+    box-shadow: rgba(255, 0, 128, 1) 0px 0px 10px -50px;
+  }
+  100% {
+    box-shadow: rgba(96, 164, 240, 0) 0px 0px 0px 35px;
+  }
+}
