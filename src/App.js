@@ -49,7 +49,7 @@ class App extends Component {
 
     const map = (mapId === 'random') ? TileMap.random() : TileMap.byId(mapId);
 
-    //original
+
     return `https://api.mapbox.com/styles/v1/${map.mapboxId}/tiles/256/{z}/{x}/{y}@2x?access_token=${map.token}`
 
   };
