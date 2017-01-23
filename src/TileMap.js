@@ -1,4 +1,4 @@
-const mapBoxToken = 'pk.eyJ1IjoiaGlsbGFyeXJrYW5lNDciLCJhIjoiY2l5MzF1aTR3MDA1NDMzbjRtaW1jYmpiYiJ9.ODQA_RRmPEkA736PI1O8mQ';
+const mapBoxToken = 'removedtosafelypush';
 
 const maps = [
   {

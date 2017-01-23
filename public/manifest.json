@@ -2,6 +2,10 @@
   "name": "CHROMEODASH",
   "description": "A Chrome extension to show your current location, weather, and today's date in new tabs :)",
   "version": "0.0.0",
+  "browser_action": {
+    "default_title": "ChromeoDash",
+    "default_icon": "pin.png"
+  },
   "chrome_url_overrides": {
     "newtab": "index.html"
   },
@@ -11,8 +15,5 @@
     "storage",
     "https://api.darksky.net/*"
   ],
-  "icon": {
-    "16": "pin.png"
-  },
   "manifest_version": 2
 }

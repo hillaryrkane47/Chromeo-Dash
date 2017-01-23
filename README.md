@@ -4,7 +4,7 @@ This is a Chrome extension that shows your current location, weather, date, & ti
 ---
 ## User Stories
 * As a user, I can install this application as a Google Chrome extension.
-* As a user, I can navigate to the deployed version of this application.
+* As a user, I can navigate to the [deployed](https://chromeo-dash.herokuapp.com/) version of this application.
 * As a user, I can view today's current date in local time.
 * As a user, I can view today's current local temperature.
 * As a user, I can view the exact coordinates of my loction.
